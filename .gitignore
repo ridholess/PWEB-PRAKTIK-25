@@ -1,5 +1,8 @@
-env/
+.env
+venv/
 myenv/
 
 __pycache__/
-.vscode/    
+
+# pip freeze > requirements.txt
+.requirements.txt
