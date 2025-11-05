@@ -16,7 +16,7 @@ Mata kuliah yang mengimplementasi konsep dasar web services menggunakan framewor
 - **<a href="https://github.com/ridholess/PWEB-PRAKTIK-25/tree/week-2">Week 2:</a>** ...
 - **<a href="https://github.com/ridholess/PWEB-PRAKTIK-25/tree/week-3">Week 3:</a>** Dasar UI/UX Design, Instalasi Flask
 - **<a href="https://github.com/ridholess/PWEB-PRAKTIK-25/tree/week-4">Week 4:</a>** Integrasi, HTML & CSS Dasar
-- **<a href="https://github.com/ridholess/PWEB-PRAKTIK-24/tree/week-5">Week 5:</a>** Integrasi Flask MySQL
+- **<a href="https://github.com/ridholess/PWEB-PRAKTIK-25/tree/week-5">Week 5:</a>** Integrasi Flask MySQL
 
 
 
