@@ -1,0 +1,9 @@
+{% extends 'base.html' %} {% block content %}
+<form method="post">
+  <label for="title_course">Judul Course</label>
+  <input type="text" name="title_course" id="title_course" value="{{ title_course }}" />
+  <label for="creator">Creator Course</label>
+  <input type="text" name="creator" id="creator" value="{{ creator }}" />
+  <input type="submit" value="Simpan Perubahan" />
+</form>
+{% endblock %}

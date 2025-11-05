@@ -1,0 +1,8 @@
+.env
+venv/
+myenv/
+
+__pycache__/
+
+# pip freeze > requirements.txt
+.requirements.txt
