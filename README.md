@@ -14,6 +14,7 @@ Mata kuliah yang mengimplementasi konsep dasar web services menggunakan framewor
 - Jadwal: 12:50 – 16:20
 - Ruangan: K1-LK1.1
 
+
 ### Instalasi
 Instalasi modul yang digunakan
 ```shell
@@ -24,10 +25,4 @@ pip install -r requirements.txt
 Instalasi database yang digunakan
 ```shell
 mysql -u root -p < db_books.sql
-```
-### Perlu diperhatikan
-
-- Pastikan untuk mengubah value pada file `.env` anda menggunakan template pada file `.envexample`
-```
-SECRET_KEY=Berikan_disini
 ```
