@@ -11,21 +11,22 @@ mysql = MySQL(app)
 
 from myproject.controllers.books import get_books, create_book, edit_book, delete_book as del_book
 
+
 @app.route('/')
 def index():
     return get_books()
 
 
-@app.route('/add', methods=['GET', 'POST'])
+@app.route('/add', methods=['POST'])
 def add_book():
     return create_book()
 
 
-@app.route('/delete/<int:book_id>')
+@app.route('/delete/<int:book_id>', methods=['DELETE'])
 def delete_book(book_id):
     return del_book(book_id)
 
 
-@app.route("/edit/<int:book_id>", methods=["GET", "POST"])
+@app.route("/edit/<int:book_id>", methods=["PUT"])
 def edit_buku(book_id):
     return edit_book(book_id)
